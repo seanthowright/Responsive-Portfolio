@@ -1,6 +1,5 @@
 html  
 {
-	background-image: url("../images/round.png");
 	height: 100%;
 	margin: 0;
 }
@@ -17,6 +16,11 @@ h1, h2, h3, h4, h5, h6
 {
 	min-height: 100%;
 	margin-bottom: -100px;
+	background: url("../images/backdrop.jpg") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 .subheader
 {
@@ -74,7 +78,7 @@ h1, h2, h3, h4, h5, h6
 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	color: #fff;
-	font-size: 40px;
+	font-size: 20px;
 }
 .basic-text
 {
@@ -90,6 +94,7 @@ ul.deco>li
 }
 .head
 {
+	background-image: url("../images/round.png");
 	background-color: #ffffff;
 	border-bottom: 3px solid #cccccc;
 }
